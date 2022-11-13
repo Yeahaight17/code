@@ -71,16 +71,6 @@
   });
 }
 
-function signoutfun(){
-  signOut(auth).then(() => {
-    window.location = "home.html";
-    alert("yesss")
-  // Sign-out successful.
-}).catch((error) => {
-    alert("oops")
-  // An error happened.
-});
-}
 
 
 
