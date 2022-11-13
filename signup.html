@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BEST VEST</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <!-- NavBar -->
+  <header><nav class="navbar navbar-expand-md navbar-dark navcolor py-3 fixed-top">
+    <div class="container-fluid">
+      <a href="http://127.0.0.1:5500/home.html" class="navbar-brand mb-0 h1 BestVest">
+        <img class="d-inline-block align-top" src="/img/heart-pulse.svg" width="35" height="35">
+        <span class="Best"> Best</span><span class="Vest">Vest</span>
+      </a>
+      <button type="button" data-bs-toggle="collapse" data-bs-target="#navmenu" class="navbar-toggler"
+        aria-controls="navmenu" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="/img/list.svg" width="35" height="35">
+      </button>
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item active">
+            <a href="http://127.0.0.1:5500/home.html" class="nav-link Home">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a href="http://127.0.0.1:5500/news.html" class="nav-link bar">News</a>
+          </li>
+          <li class="nav-item active">
+            <a href="http://127.0.0.1:5500/login.html" class="nav-link bar">Login</a>
+          </li>
+          <li class="nav-item active">
+            <a href="http://127.0.0.1:5500/signup.html" class="nav-link bar">Sign up</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav></header>
+  <main>
+  <section class="backimg">
+    <div class="mx-auto my-md-5 pt-5"></div>
+    <div class="pt-5"></div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4 col-sm-12 col-xs-12"></div>
+        <div class="col-md-4 col-sm-12 col-xs-12">
+          <form class="signupform">
+            <h1 class="text-center mb-3 logsign">Enter your details</h1>
+            <div class="form-outline mb-1">
+              <input type="text" id="SignupName" name="SignupName" class="form-control" placeholder="Full Name"/><br>
+              <!-- <label class="form-label text-white" for="SignupName">Full Name</label> -->
+            </div>
+            <div class="form-outline mb-1">
+              <input type="email" id="SignupEmail" name="SignupEmail" class="form-control" placeholder="Email"/><br>
+              <!-- <label class="form-label text-white" for="SignupEmail">Email</label> -->
+            </div>
+            <div class="form-outline mb-2">
+              <input type="password" id="SignupPassword" name="SignupPassword" class="form-control" placeholder="Password"/><br>
+              <!-- <label class="form-label text-white" for="SignupPassword">Password</label> -->
+            </div>
+            <div class="col d-flex justify-content-center">
+            </div>
+            <div class="col">
+            </div>
+            <div class="text-center gap-2">
+              <button type="button" id="signUp" name="signUp" class="btn btn-dark text-primary logbuts">Signup</button>
+            </div>
+            <div class="text-center mt-3">
+              <p class="text-white">Already have an account? <a href="http://127.0.0.1:5500/login.html">Login</a></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>

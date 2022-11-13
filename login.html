@@ -1,0 +1,91 @@
+
+<!doctype html> 
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BEST VEST</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <!-- NavBar -->
+  <header><nav class="navbar navbar-expand-md navbar-dark navcolor py-3 fixed-top">
+    <div class="container-fluid">
+      <a href="http://127.0.0.1:5500/home.html" class="navbar-brand mb-0 h1 BestVest">
+        <img class="d-inline-block align-top" src="/img/heart-pulse.svg" width="35" height="35">
+        <span class="Best"> Best</span><span class="Vest">Vest</span>
+      </a>
+      <button type="button" data-bs-toggle="collapse" data-bs-target="#navmenu" class="navbar-toggler"
+        aria-controls="navmenu" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="/img/list.svg" width="35" height="35">
+      </button>
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item active">
+            <a href="http://127.0.0.1:5500/home.html" class="nav-link Home">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a href="http://127.0.0.1:5500/news.html" class="nav-link bar">News</a>
+          </li>
+          <li class="nav-item active">
+            <a href="http://127.0.0.1:5500/login.html" class="nav-link bar">Login</a>
+          </li>
+          <li class="nav-item active">
+            <a href="http://127.0.0.1:5500/signup.html" class="nav-link bar">Sign up</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav></header>
+  <main>
+  <section class="backimg">
+    <div class="mx-auto my-md-5 pt-5"></div>
+    <div class="pt-4"></div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4 col-sm-12 col-xs-12"></div>
+        <div class="col-md-4 col-sm-12 col-xs-12">
+          <form class="loginform" id="loginform">
+            <h1 class="text-center mb-3 logsign">Please Login</h1>
+            <div class="form-outline mb-3">
+              <input type="text" id="LoginEmail" name="LoginEmail" class="form-control" placeholder="Email"/><br>
+              <!-- <label class="form-label text-white" for="LoginEmail">Email</label> -->
+            </div>
+            <div class="form-outline mb-0">
+              <input type="password" id="LoginPassword" name="LoginPassword" class="form-control" placeholder="Password"/><br>
+              <!-- <label class="form-label text-white" for="LoginPassword">Password</label> -->
+            </div>
+            <div class="row mb-4">
+              <div class="col d-flex justify-content-center">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+                  <label class="form-check-label text-white" for="form2Example31"> Remember me </label>
+                </div>
+              </div>
+              <div class="col">
+                <a href="#!">Forgot password?</a>
+              </div>
+            </div>
+            <div class="text-center gap-2">
+              <button type="button" id="LogIn" name="LogIn" class="btn btn-dark text-primary logbuts">Login</button>
+            </div>
+            <div class="text-center mt-3">
+              <p class="text-white">Don't have an account <a href="http://127.0.0.1:5500/signup.html">Register</a></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
